@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--设置当前的html文件的字符编码-->
+    <meta charset="UTF-8">
+    <!--设置浏览器兼容的版本（让ie使用最新的渲染引擎）-->
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <!--声明当前网页在移动端浏览器中展示的相关设置(调整视口跟屏幕大小大小一致)-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+
+    <!--上三个meta必须放在最前面-->
+
+    <title>微金所</title>
+    <!--引入bootstrap的css文件-->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+
+    <!--下面的注释区表示如果浏览器低于ie9   那么执行下面的语句-->
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/IE9.css">
+    <div class="box-01">
+        <h1>来自本站作者的温馨提示</h1>
+        <h3>您的浏览器弱爆了，请更新浏览器或换另外一个浏览器再来查阅本站!!</h3>
+    </div>
+<![endif]-->
+
+    <!--自己写的文件默认放在最下面-->
+    <!--下面的注释区表示如果浏览器在ie9以上   那么执行下面的语句-->
+    <!--[if gte IE 9]>
+    <link rel="stylesheet" href="css/main.css">
+    <![endif]-->
+    <!--导入css本地文件-->
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+<body>
+<!--header-->
+<header id="header" class="header">
+    <div class="topbar hidden-sm hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 text-center">
+                    <a href="#" class="mobile-link">
+                        <i class="icon-mobilephone"></i>
+                        <span>手机微金所</span>
+                        <i class="glyphicon glyphicon-chevron-down"></i>
+                        <img src="img/c_06.jpg" alt="扫一扫" title="扫一扫">
+                    </a>
+                </div>
+                <div class="col-md-5 text-center">
+                    <i class="icon-telephone"></i>
+                    <span>客服电话：4006-89-4006 / 010-53563799/（9:00~21:00）</span>
+                </div>
+                <div class="col-md-2 text-center row-md-3">
+                    <a href="#">常见问题</a>
+                    <a href="#">财富登录</a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" class="btn btn-danger btn-sm">免费注册</a>
+                    <span class="row-md-3"><a href="" class="btn btn-link btn-sm">登录</a></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-itcast navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">切换菜单</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">
+                    <i class="icon-icon"></i>
+                    <i class="icon-logo"></i>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">我要投资</a></li>
+                    <li><a href="#">我要借款</a></li>
+                    <li><a href="#">平台介绍</a></li>
+                    <li><a href="#">新手专区</a></li>
+                    <li><a href="#">最新动态</a></li>
+                    <li><a href="#">微论坛</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right hidden-sm">
+                    <li><a href="#">个人中心</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+</header>
+<!--header-->
+<!--广告轮播-->
+<section id="main_ad">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators   指示器 就轮播图下面的小圆点 活动指示器 -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+
+        <!--轮播项目 -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active" data-image-lg="img/slide_01_2000x410.jpg" data-image-xs="img/slide_01_640x340.jpg">
+            </div>
+            <div class="item" data-image-lg="img/slide_02_2000x410.jpg" data-image-xs="img/slide_02_640x340.jpg">
+            </div>
+            <div class="item" data-image-lg="img/slide_03_2000x410.jpg" data-image-xs="img/slide_03_640x340.jpg">
+            </div>
+            <div class="item" data-image-lg="img/slide_04_2000x410.jpg" data-image-xs="img/slide_04_640x340.jpg">
+            </div>
+
+        </div>
+
+        <!-- Controls  左右控制按钮 -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+</section>
+<!--广告轮播-->
+<!--特色介绍-->
+<section id="tese">
+    <div class="container">
+        <div class="row col-sm-6 col-md-4">
+            <a href="#">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="icon-uniE907"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">银联支付全程保障支付安全</h4>
+                        <p>银联支付全称保证支付安全</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="row col-sm-6 col-md-4">
+            <a href="#">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="icon-uniE907"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">银联支付全程保障支付安全</h4>
+                        <p>银联支付全称保证支付安全</p>
+                    </div>
+                </div>
+            </a></div>
+        <div class="row col-sm-6 col-md-4">
+            <a href="#">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="icon-uniE907"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">银联支付全程保障支付安全</h4>
+                        <p>银联支付全称保证支付安全</p>
+                    </div>
+                </div>
+            </a></div>
+        <div class="row col-sm-6 col-md-4">
+            <a href="#">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="icon-uniE907"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">银联支付全程保障支付安全</h4>
+                        <p>银联支付全称保证支付安全</p>
+                    </div>
+                </div>
+            </a></div>
+        <div class="row col-sm-6 col-md-4">
+            <a href="#">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="icon-uniE907"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">银联支付全程保障支付安全</h4>
+                        <p>银联支付全称保证支付安全</p>
+                    </div>
+                </div>
+            </a></div>
+        <div class="row col-sm-6 col-md-4">
+            <a href="#">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="icon-uniE907"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">银联支付全程保障支付安全</h4>
+                        <p>银联支付全称保证支付安全</p>
+                    </div>
+                </div>
+            </a></div>
+    </div>
+</section>
+<!--特色介绍-->
+<!--立即预约-->
+<section id="ljyy">
+    <div class="container">
+        <p class="pull-left"><i class="icon-uniE906"></i>现在有<span>458</span>人在排队，累计预约交易成功<span>74019</span>次。什么是预约投标？<a href="#">立即预约</a></p>
+
+        <p class="pull-right hidden-sm hidden-xs"><a href="#"><i class="icon-uniE907"></i>微金所宣传片</a></p>
+    </div>
+</section>
+<!--立即预约-->
+<!--产品推荐-->
+<section id="tuijian">
+    <div class="container">
+
+        <!--  选项卡标题 -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#console_01" aria-controls="console_01" role="tab" data-toggle="tab">特别推荐</a></li>
+            <li role="presentation"><a href="#console_02" aria-controls="console_02" role="tab" data-toggle="tab">微投资</a></li>
+            <li role="presentation"><a href="#console_03" aria-controls="console_03" role="tab" data-toggle="tab">微小包</a></li>
+            <li role="presentation"><a href="#console_04" aria-controls="console_04" role="tab" data-toggle="tab">微消费</a></li>
+            <li role="presentation"><a href="#console_05" aria-controls="console_05" role="tab" data-toggle="tab">微增利</a></li>
+            <li role="presentation"><a href="#console_06" aria-controls="console_06" role="tab" data-toggle="tab">微金宝</a></li>
+            <li role="presentation"><a href="#console_07" aria-controls="console_07" role="tab" data-toggle="tab">微转让</a></li>
+            <li class="pull-right"><a href="#">更多</a></li>
+        </ul>
+
+        <!-- 所有选项卡的内容 -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="console_01">
+
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="console_02">2</div>
+            <div role="tabpanel" class="tab-pane fade" id="console_03">3.</div>
+            <div role="tabpanel" class="tab-pane fade" id="console_04">4</div>
+            <div role="tabpanel" class="tab-pane fade" id="console_05">5...</div>
+            <div role="tabpanel" class="tab-pane fade" id="console_06">6...</div>
+            <div role="tabpanel" class="tab-pane fade" id="console_07">7...</div>
+        </div>
+
+    </div>
+</section>
+<!--产品推荐-->
+<!--新闻列表-->
+<section></section>
+<!--新闻列表-->
+
+
+
+
+
+
+
+<!--Bootstrap的最优组件都是依赖jquery写的-->
+<script src="lib/jquery-2.1.4/dist/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="js/min.js"></script>
+<div class="container"></div>
+
+</body>
+</html>
