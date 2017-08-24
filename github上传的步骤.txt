@@ -1,39 +1,39 @@
-1£ºgit init
+1ï¼šgit init
 
-2: git remote add origin +²Ö¿âµØÖ·
+2: git remote add origin +ä»“åº“åœ°å€
 
 3: git status
 
-4: git add .(Õâ¸öĞ¡µãÒª¼ÓÉÏ)
+4: git add .(è¿™ä¸ªå°ç‚¹è¦åŠ ä¸Š)
 
 5: git status
 
-6: git commit -m 'tj'(ÒıºÅÄÚµÄÊÇÒª·¢³öµÄÏûÏ¢)
+6: git commit -m 'tj'(å¼•å·å†…çš„æ˜¯è¦å‘å‡ºçš„æ¶ˆæ¯)
 
 7: git status
 
-8: git push --set-upstream origin master(ÍÆËÍµÄ×îºóÒ»¸ö²½Öè)
+8: git push --set-upstream origin master(æ¨é€çš„æœ€åä¸€ä¸ªæ­¥éª¤)
 
      ----      ----     ---- 
-git checkout -b dev       //´´½¨·ÖÖ§
+git checkout -b dev       //åˆ›å»ºåˆ†æ”¯
 
-git branch                //²é¿´·ÖÖ§
+git branch                //æŸ¥çœ‹åˆ†æ”¯
 
-git checkout master       //ÇĞ»»·ÖÖ§µ½master
+git checkout master       //åˆ‡æ¢åˆ†æ”¯åˆ°master
 
-git merge dev             //ºÏ²¢dev·ÖÖ§µ½µ±Ç°·ÖÖ§
-git branch -d dev         //É¾³ıdev·ÖÖ§
-
-
-       µÚ¶şÖÖ·½·¨
-1£ºgit init£¨³õÊ¼»¯£©
-2£ºgit status£¨¿´¿´ÓĞ¼¸¸öÎÄ¼şÃ»ÓĞ±»¸ú×Ù£©
-3£ºgit add --all£¨°ÑËùÓĞµÄÎÄ¼şÌí¼Ó¼àÌı£©
-4£ºgit remote add origin +²Ö¿âµØÖ·
-5£ºgit commit -m '¸úÎÄ¼şÒ»ÆğÌá½»µÄÏûÏ¢'
-6£ºgit push -u origin master
+git merge dev             //åˆå¹¶devåˆ†æ”¯åˆ°å½“å‰åˆ†æ”¯
+git branch -d dev         //åˆ é™¤devåˆ†æ”¯
 
 
+       ç¬¬äºŒç§æ–¹æ³•
+1ï¼šgit initï¼ˆåˆå§‹åŒ–ï¼‰
+2ï¼šgit statusï¼ˆçœ‹çœ‹æœ‰å‡ ä¸ªæ–‡ä»¶æ²¡æœ‰è¢«è·Ÿè¸ªï¼‰
+3ï¼šgit add --allï¼ˆæŠŠæ‰€æœ‰çš„æ–‡ä»¶æ·»åŠ ç›‘å¬ï¼‰
+4ï¼šgit remote add origin +ä»“åº“åœ°å€
+5ï¼šgit commit -m 'è·Ÿæ–‡ä»¶ä¸€èµ·æäº¤çš„æ¶ˆæ¯'
+6ï¼šgit push -u origin master
+
+è¿™æ˜¯æ–°åŠ çš„ Â æ–°åŠ çš„
 
 
 
