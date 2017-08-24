@@ -1,0 +1,39 @@
+1：git init
+
+2: git remote add origin +仓库地址
+
+3: git status
+
+4: git add .(这个小点要加上)
+
+5: git status
+
+6: git commit -m 'tj'(引号内的是要发出的消息)
+
+7: git status
+
+8: git push --set-upstream origin master(推送的最后一个步骤)
+
+     ----      ----     ---- 
+git checkout -b dev       //创建分支
+
+git branch                //查看分支
+
+git checkout master       //切换分支到master
+
+git merge dev             //合并dev分支到当前分支
+git branch -d dev         //删除dev分支
+
+
+       第二种方法
+1：git init（初始化）
+2：git status（看看有几个文件没有被跟踪）
+3：git add --all（把所有的文件添加监听）
+4：git remote add origin +仓库地址
+5：git commit -m '跟文件一起提交的消息'
+6：git push -u origin master
+
+
+
+
+
